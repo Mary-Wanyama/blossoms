@@ -6,23 +6,34 @@ function Motivation() {
 
     let [quote, setQuote] = useState('')
     let [author, setAuthor] = useState('')
+    const [counter, setCounter] = useState(0)
     
-    let quoting =  useEffect(()=>{
-        fetch(url)
+    const increase = () => {
+        setCounter(count => count + 1);
+      };
+     
+
+
+
+    
+    useEffect(()=>{
+       fetch(url)
         .then(res=>res.json())
         .then(data=>{
             setQuote(data.content)
             setAuthor(data.author)
             console.log(data.author)})
-    }, [])
+    }, [ counter])
 
 
     return(
         <React.Fragment>
             <p>{quote}</p>
-            <em>~ {author}</em>
-            <br/>
-            <button onClick={e=>quoting}>new quote</button>
+            <em> ~ {author}</em>
+            
+            {/* <button onClick={increaseCount}>new quote {count}</button> */}
+      
+        <button  onClick={increase}>Quotes read {counter}</button>
         </React.Fragment>
     )
 

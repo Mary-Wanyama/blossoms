@@ -1,13 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import Motivation from './Components/Motivation';
+import React from "react";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import NewPost from "./Components/NewPost";
+import Motivation from "./Components/Motivation";
+import NavBar from "./Components/Navbar";
+import './App.css'
 
 function App() {
-  return (
+  return(
     <div className="App">
-      < Motivation />
-    </div>
-  );
-}
+      <NavBar />
+      <div className="content">
+      <Home />
+      <Motivation />
 
-export default App;
+    </div>
+    </div>
+
+  )
+}
+export default App
