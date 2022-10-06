@@ -39,7 +39,7 @@ function Home() {
             <h3>home page</h3>
 
              {data.map((blogs)=>( 
-                <div key={blogs.id}>
+                <div key={blogs.id} className='card'>
                 <h3>{blogs.title}</h3>
                 <p>{blogs.content}</p>
                 <em> ~ {blogs.author}</em>
