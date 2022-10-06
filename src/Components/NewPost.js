@@ -1,4 +1,5 @@
 import React from "react";
+import './NewPost.css'
 
 function NewPost() {
 
@@ -7,7 +8,7 @@ function NewPost() {
     
 
     return(
-        <React.Fragment>
+        <div className="div">
             <h3>New Posts</h3>
             <br />
             <form>
@@ -18,9 +19,10 @@ function NewPost() {
                 <input type='email' name="email" placeholder=" enter your email"/>
                 <br /><br />
                 <input type='text' required name="author" placeholder=" ~anonymous"/>
-                <input type='submit' />
+                <br /><br />
+                <input type='submit' className="submit"/>
             </form>
-        </React.Fragment>
+        </div>
     )
 }
 export default NewPost
