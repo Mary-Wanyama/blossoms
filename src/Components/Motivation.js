@@ -7,7 +7,7 @@ function Motivation() {
 
     let [quote, setQuote] = useState('')
     let [author, setAuthor] = useState('')
-    const [counter, setCounter] = useState(1)
+    const [counter, setCounter] = useState(0)
     
     const increase = () => {
         setCounter(count => count + 1);
@@ -33,7 +33,6 @@ function Motivation() {
 
     return(
         <div className="div">
-            
             <p className="p">{quote}</p>
             <div className="motivation">
                 <em> ~ {author}</em>

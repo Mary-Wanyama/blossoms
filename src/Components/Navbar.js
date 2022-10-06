@@ -1,5 +1,6 @@
 import { findByLabelText } from "@testing-library/react";
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
     
@@ -7,10 +8,10 @@ function NavBar() {
         <nav className="navbar" style={{display: 'flex',alignItems: 'center', justifyContent: "space-around"  }}>
             <h1>Blossoms</h1>
             <div  style={{display: 'flex',alignItems: 'center', justifyContent: "space-between"  }}>
-                <a href="/" style={{paddingRight: '1.5vw'}}>Home</a> 
-                <a href="/About" style={{paddingRight: '1.5vw'}}>About</a>
-                <a href="/NewPost" style={{paddingRight: '1.5vw'}}>NewPost</a>
-                <a href="/Motivation" style={{paddingRight: '1.5vw'}}>Motivation</a>
+                <NavLink to="/" style={{marginRight: '1.5vw'}} className='links'>Home</NavLink> 
+                <NavLink to="/About" style={{marginRight: '1.5vw'}} className='links'>About</NavLink>
+                <NavLink to="/NewPost" style={{marginRight: '1.5vw'}} className='links'>NewPost</NavLink>
+                <NavLink to="/Motivation" style={{marginRight: '1.5vw'}} className='links'>Motivation</NavLink>
             </div>
 
         </nav>
