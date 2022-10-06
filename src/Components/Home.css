@@ -22,6 +22,8 @@ p{
 }
 .home{
     background-color: white;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 button{
     margin-top: 0.7vw;
@@ -33,6 +35,10 @@ button{
     border-radius: 5%;
 }
 .homediv{
-    height: 30vh;
-    background-color: aqua;
+        padding-top: 3vw;
+        background-color: aqua;
+        min-height: 20vw;
+        max-height: fit-content;
+        padding-bottom: 2vw;
+   
 }
