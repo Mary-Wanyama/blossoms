@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Home.css'
 
 function Home() {
    
@@ -36,7 +37,10 @@ function Home() {
 
     return(
         <div className='home'>
+            <div className='homediv'>
             <h3>home page</h3>
+            </div>
+            
 
              {data.map((blogs)=>( 
                 <div key={blogs.id} className='card'>
