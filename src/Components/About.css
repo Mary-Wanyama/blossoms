@@ -1,0 +1,26 @@
+.div{
+    text-align: center;
+    padding-top: 3vw;
+    background-color: aqua;
+    height: 20vw;
+}
+p{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 1vw;
+    line-height: 2em;
+}
+.div1{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-around;
+    height: 20vw;
+    padding: 0%;
+}
+.div12{
+    background-color: aqua;
+    height: 15vw;
+}
+.div31{
+    background-color: white;
+}

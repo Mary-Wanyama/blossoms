@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import './Motivation.css'
 
 function Motivation() {
 
@@ -25,16 +26,28 @@ function Motivation() {
             console.log(data.author)})
     }, [ counter])
 
+    function listQoutes(e) {
+        console.log(e.target)
+    }
+
 
     return(
-        <React.Fragment>
-            <p>{quote}</p>
-            <em> ~ {author}</em>
-            
-            {/* <button onClick={increaseCount}>new quote {count}</button> */}
-      
-        <button  onClick={increase}>Quotes read {counter}</button>
-        </React.Fragment>
+        <div className="div">
+            <p className="p">{quote}</p>
+            <div className="motivation">
+                <em> ~ {author}</em>
+                
+
+
+                {/* <button onClick={increaseCount}>new quote {count}</button> */}
+
+                <button  onClick={increase} className="class">Quotes read {counter}</button>
+                
+
+            </div>
+          
+
+        </div>
     )
 
 }
