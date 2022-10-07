@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import './Motivation.css'
+
 
 function Motivation() {
 
