@@ -1,26 +1,53 @@
-import React from "react";
+import React, {useState} from "react";
+import Axios from "axios"
 
 
 function NewPost() {
 
     // const [addText, setAddText] = useState('')
+    const url = 'http://localhost:3000/blogs'
+    const [data, setData] = useState({
+        title: ' ',
+        content: ' ',
+        author: ' ',
+        likes : ' '
+      })
+
+      function handle(e) {
+        const newData = {...data}
+        newData[e.target.id] = [e.target.value]
+        setData(newData)
+        console.log(newData)
+      }
     
+
+      function addDataForm(e) {
+        e.preventDefault()
+        
+        Axios.post(url, {
+          title: data.title,
+          content : data.content,
+          author : data.author,
+          likes : data.likes
+        })
+        .then(res=>console.log(res))
+
+        e.reset()
+    }
     
 
     return(
         <div className="div">
             <h3>New Posts</h3>
             <br />
-            <form>
-                <input type='text' required name="title" placeholder="title" />
+            <form  onSubmit={(e)=>addDataForm(e)}>
+                <input onChange={(e)=>handle(e)} type='text' id="title" value={data.title} required name="title" placeholder="title" />
                 <br /><br />
-                <input type='text' required name="content" placeholder="enter your content"/>
+                <input onChange={(e)=>handle(e)} type='text' id="content" value={data.content} required name="content" placeholder="enter your content"/>
                 <br /><br />
-                <input type='email' name="email" placeholder=" enter your email"/>
+                <input onChange={(e)=>handle(e)} type='text' id="author" value={data.author} required name="author" placeholder=" ~anonymous"/>
                 <br /><br />
-                <input type='text' required name="author" placeholder=" ~anonymous"/>
-                <br /><br />
-                <input type='submit' className="submit"/>
+                <input onChange={(e)=>handle(e)} type='submit'  className="submit"/>
             </form>
         </div>
     )
