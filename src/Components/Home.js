@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 function Home() {
    
-    const [data, setData ] = useState([
+    const data=[
         {
             id : 1,
             title : 'React Overview',
@@ -32,7 +32,7 @@ function Home() {
             author : 'Mary Wanyama',
             likes: 0
         }
-    ])
+    ]
 
 
     return(

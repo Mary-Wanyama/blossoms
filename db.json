@@ -1,0 +1,51 @@
+[
+    {
+    "id": 1,
+    "title": "Intoduction to React",
+    "content": "React is a Javascript Library that is confused for being a frameword",
+    "author": "Mary Wanyama",
+    "likes": 8
+    },
+    {
+    "id": 2,
+    "title": "Javascript",
+    "content": "Javascript is a backend and frontend language that make your website interactive",
+    "author": "Mary Wanyama",
+    "likes": 14
+    },
+    {
+    "id": 3,
+    "title": "React Features",
+    "content": "React has some awesome features such as a components which are written like normal function except the function name is capitalised",
+    "author": "Mary Wanyama",
+    "likes": 3
+    },
+    {
+    "id": 4,
+    "title": "what is the difference between vanilla Js and react",
+    "content": "The main difference is that React is a declarative language while vanilla Js is an imperative language",
+    "author": "Mary Wanyama",
+    "likes": 4
+    },
+    {
+    "id": 5,
+    "title": "Arrays",
+    "content": "React uses Js functions to navigate arrays, but arrays in React need a unique key",
+    "author": "Mary Wanyama",
+    "likes": 1
+    },
+    {
+    "id": 6,
+    "title": "CSS and html",
+    "content": "html make the content of the application while css make the content visually worthy. They are co-dependent",
+    "author": "Mary Wanyama",
+    "likes": 2
+    },
+    {
+    "id": 7,
+    "title": "static and dynamic website",
+    "content": "In a static website, the users see the same content while in dynamic websites the content changes with the user",
+    "author": "Mary Wanyama",
+    "likes": 0
+    }
+    ]
