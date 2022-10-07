@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 
 function Home() {
-    const urlPath = 'https://lit-depths-86097.herokuapp.com/blogs'
+    const urlPath = 'http://localhost:3000/blogs'
 
     const [data, setData] = useState([])
 

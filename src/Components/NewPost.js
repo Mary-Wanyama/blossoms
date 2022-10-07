@@ -5,7 +5,7 @@ import Axios from "axios"
 function NewPost() {
 
     // const [addText, setAddText] = useState('')
-    const url = 'https://lit-depths-86097.herokuapp.com/blogs'
+    const url = 'http://localhost:3000/blogs'
     const [data, setData] = useState({
         title: ' ',
         content: ' ',
