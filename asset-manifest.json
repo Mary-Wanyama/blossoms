@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blossoms/static/css/main.ca323bd2.css",
+    "main.js": "/blossoms/static/js/main.f0d329e8.js",
+    "static/js/787.f62b0a56.chunk.js": "/blossoms/static/js/787.f62b0a56.chunk.js",
+    "index.html": "/blossoms/index.html",
+    "main.ca323bd2.css.map": "/blossoms/static/css/main.ca323bd2.css.map",
+    "main.f0d329e8.js.map": "/blossoms/static/js/main.f0d329e8.js.map",
+    "787.f62b0a56.chunk.js.map": "/blossoms/static/js/787.f62b0a56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca323bd2.css",
+    "static/js/main.f0d329e8.js"
+  ]
+}
