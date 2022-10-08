@@ -13,7 +13,7 @@ React.js
 7.  react-scripts: 5.0.1,
 8.  web-vitals: ^2.1.4   
 ### Installation
-The user does not need to install anything for them to be able to use the application since the databases are online.
+The user does not need to install anything for them to be able to use the application since everything is provided online
 
 ### Usage
 The platform displays engineering facts making studying the course bearable since it is not an easy course.
@@ -27,3 +27,6 @@ Mary Wanyama
 
 #### contact information
 mary.wanyama@student.moringaschool.com
+
+##### Project url 
+https://blossoms-pragmatic.herokuapp.com/
