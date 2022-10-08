@@ -168,9 +168,17 @@ input{
     height: 2.4vw;
     width: 20vw;
     margin: 1.5vw;
+    margin-top: 0%;
     background-color: white;
     border: none;
     font-size: 1vw;
+}
+.label{
+font-size: 1.2vw;
+font-weight: 600;
+padding-bottom: 0%;
+margin-bottom: 0.2vw;
+padding-top: 1.5vw;
 }
 .submit{
     background-color: white;
