@@ -11,16 +11,18 @@ useEffect(()=>{
     fetch(urlPath)
     .then(res=>res.json())
     .then(json =>{
-        console.log(json)
         setData(json)
     })
 }, [])
 
 
+
     return(
         <div className='home'>
             <div className='homediv'>
-            <h3>home page</h3>
+            <h1 className='h1'>
+                {/* <video src='smoke.mp4' autoPlay muted /> */}
+                <span>B</span> <span>L</span> <span>O</span> <span>S</span> <span>S</span> <span>O</span> <span>M</span> <span>S</span></h1>
             </div>
             
 
@@ -29,8 +31,6 @@ useEffect(()=>{
                 <h3>{blogs.title}</h3>
                 <p>{blogs.content}</p>
                 <em> ~ {blogs.author}</em>
-                <br/>
-                <button>{blogs.likes} likes</button>
                 </div>
 
             ))} 

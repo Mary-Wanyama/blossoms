@@ -8,11 +8,10 @@ function About() {
 
     return (
         <div className="div">
-            <h3> Hi my name is Mary</h3>
-            <p> I am  a mechanical engineer who is currently doing software engineering. I have currently worked with two companies one for mechanical engineering 
-                and another took a chance on me in there website development and am very grateful for that opportunity. I am passionate about engineering. I always feel like that there is something  
-                very pure about someone designing and bringing to life something. It is a glimpse of a persons soul. This blog is going
-                to provide some of the fact in engineering.
+            <h3> Hi My name is Blossoms and am glad I met you</h3>
+            <p> I am an independent media that is here to listen to what you know as well as provide the information that I aleady have. I promise I wont pressure
+                to give your identity. Therefore you can have freedom in posting whatever you want. I am friendly, I dont bite and can I ask for the same courtecy so we
+                can be friends. I mean we are already friends. Isnt it awesome that we are all learning ffom each other, have fun and happy posting.
             </p> 
         </div>
     )

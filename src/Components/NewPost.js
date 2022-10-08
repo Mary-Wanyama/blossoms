@@ -10,7 +10,7 @@ function NewPost() {
         title: ' ',
         content: ' ',
         author: ' ',
-        likes : ' '
+        likes : 0
       })
 
       function handle(e) {
