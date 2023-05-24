@@ -61,7 +61,7 @@ function Home() {
                 <div key={blogs.id} className='card'>
                 <h3>{blogs.title}</h3>
                 <p>{blogs.content}</p>
-                <em> ~ {blogs.author}</em>
+                <em> ~ {blogs.name}</em>
                 </div>
 
             ))} 
