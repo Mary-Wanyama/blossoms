@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
     
     return(
-        <nav className="navbar" style={{display: 'flex',alignItems: 'center', justifyContent: "space-around"  }}>
+        <nav className="navbar" style={{display: 'flex',alignItems: 'center', justifyContent: "space-around"}}>
             <h1>Blossoms</h1>
-            <div  style={{display: 'flex',alignItems: 'center', justifyContent: "space-between"  }}>
+            <div  style={{display: 'flex',alignItems: 'center', justifyContent: "space-between" }}>
                 <NavLink to="/" style={{marginRight: '1.5vw'}} className='links'>Home</NavLink> 
                 <NavLink to="/About" style={{marginRight: '1.5vw'}} className='links'>About</NavLink>
                 <NavLink to="/NewPost" style={{marginRight: '1.5vw'}} className='links'>NewPost</NavLink>
