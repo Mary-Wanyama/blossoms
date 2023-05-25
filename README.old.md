@@ -29,4 +29,4 @@ Mary Wanyama
 mary.wanyama@student.moringaschool.com
 
 ##### Project url 
-https://blossoms-pragmatic.herokuapp.com/
+https://blossoms-mocha.vercel.app/
