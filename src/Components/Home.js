@@ -11,7 +11,7 @@ useEffect(()=>{
     fetch(urlPath)
     .then(res=>res.json())
     .then(json =>{
-        setData(json)
+        setData(json.data)
     })
 }, [])
 

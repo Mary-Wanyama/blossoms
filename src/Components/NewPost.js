@@ -25,10 +25,9 @@ function NewPost() {
         e.preventDefault()
         
         Axios.post(url, {
-          title: data.title,
-          content : data.content,
-          author : data.author,
-          likes : data.likes
+          title: data.data.title,
+          content : data.data.content,
+          author : data.data.name,
         })
         .then(res=>console.log(res))
 
